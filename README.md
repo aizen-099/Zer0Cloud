@@ -1,4 +1,5 @@
 # CloudSecArchPP UI - Real AWS Integration
+Notice : There is an update in this WebApplication We will reach you with requiments soon 
 
 This app keeps the same UI/UX while switching to real AWS integration using the AWS Default Credential Provider Chain. No AWS secrets are stored by the app.
 
@@ -32,4 +33,5 @@ Visit http://localhost:5000
 - Settings no longer accept/store AWS secrets. Only region is kept in-memory.
 - Connection test uses provided keys (if both key+secret are sent) or your default AWS profile/role.
 - Scans run with your active AWS identity; ensure it has permissions for S3, EC2, IAM, and RDS read operations.
+
 
